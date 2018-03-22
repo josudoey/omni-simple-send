@@ -1,10 +1,10 @@
 {
   "name": "omni-simple-send",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "create a Simple Send data for omni layer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "dependencies": {
     "bn.js": "^4.11.8",
     "left-pad": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4"
   }
 }
